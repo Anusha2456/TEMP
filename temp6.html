@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        margin: 0px;
+    }
+    .c{
+        background-color: orange;
+    }
+
+    .h {
+        top: 0px;
+        background-color: pink;
+        padding: 20px;
+        position: sticky;
+        display: flex;
+        justify-content:space-between;
+    
+    }
+    .row {
+        background-color: silver;
+        padding:10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .box {
+        /* background-color: pink; */
+        margin:20px;
+        padding:50px;
+        width: 300px;
+        heigth: 300px;
+        border: 5px solid orange;
+        border-radius: 20px;
+        background:linear-gradient(blue,white);
+    }
+    .container {
+        position: absolute;
+        overflow: auto;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+    p{
+        font-size: 12px;
+        font-family:"verdana";
+        font-weight: bold;
+    }
+    .header {
+        background-image: url(images/img2.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+    .caption {
+        background-color: aqua;
+        padding: 40px;
+        opacity: 0.5;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Temp6</h1>
+    <!-- <h3 class="background-color: orange:"></h3> Application</h3> -->
+    <!-- <h3>My Application</h3> -->
+     <div class="h">
+    <h3>My Application</h3>
+    <div>
+    <a href="#home">Home</a>
+    <a href="#projects">projects</a>
+    <a href="#">Services</a>
+    <a href="#">contact</a>
+    </div>
+    </div>
+    
+    <div class="row header" id="home">
+        <div class="caption">
+        <h1> Full Stack Developer</h1>
+        <p>   MERN | Java |Python</p>
+    </div>
+    </div>
+    <div class="row" id="projects">
+    <div class="box" ><h2>project 1</h2>
+    <p>This is my first Project.</p>
+    <a href="#" > view project</a>
+</div>
+    <div class="box" ><h2>project 2</h2>
+    <p>This is my second project.
+    </p>
+    <a href="#" > view project</a>
+</div>
+    <div class="box" ><h2>project 3</h2>
+    <p>
+        This is my third project.
+    </p>
+    <a href="#" > view project</a>
+</div>
+    </div>
+    <div>
+        <h3>@copyright 2024. All rights reserved.</h3>
+    </div>
+    </div>
+    </body>
+</body>
+</html>
